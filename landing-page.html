@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Landing Page</title>
+
+		<link rel="stylesheet" href="styles.css">
+	</head>
+
+	<body>
+		<!--Page Content-->
+        <section id="main-sec">
+            <section id="home-sec">
+                <div id="home-sec-div">
+                    <img src="./assets/logo-blue-160x160-1.png" alt="logo" id="logo">
+                    <button id="contact-btn" type="button">CONTACT US</button>
+                    <div id="content">
+                        <h1 id="home-sec-h1"><span style="font-weight: 100;">Integrated<br></span> Marketing Services</h1>
+                        <p id="home-sec-p">We turn your marketing plans into action by <br>building on your ideas and executing intiatives<br>alongside you andyour team. Get a complete <br>departement that can pivot to different areas of<br> marketing based on your needs.</p>
+                    </div>
+                </div>
+            </section>
+            <section id="second-sec">
+                <div id="second-sec-div">
+                    <div id="content-two">
+                        <h1 id="second-sec-h1"><span style="font-weight: 100;">We're experts with</span><br>modern marketing <br>tools, <span style="font-weight: 100;">so you don't have to be!</span></h1>
+                        <p id="second-sec-p">With hands-on experience in B2B’s most innovative <br>apps and tools, we take a data-driven approach to<br> continually improve prospect engagement. <br>Whether we work directly out of your platform or <br>provide our insights manually, you always get<br> full visibility into the process.
+                        </p>    
+                    </div>  
+                    <img src="./assets/Marketing_Tools.svg" alt="marketing-tools" id="tools">
+                </div>
+            </section>
+            <section id="third-sec">
+                <div id="third-sec-div">
+                    <img src="./assets/Complete-Department-Marketing.png" alt="Complete Department Marketing" id="department">
+                    <div id="content-three">
+                        <h1 id="third-sec-h1">The best way <span style="font-weight: 100;">to build a marketing team</span></h1>
+                        <p id="third-sec-p">With EBQ, you’re not just hiring a marketing specialist.You’re getting an entire marketing department at a fraction of the cost and effort of hiring internally.<br><br> For each project, we provide: a Success Manager to drive high-level strategy, a Project Manager to oversee day-to-day operations, and one or more Specialists working diligently to amplify your brand.
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <section id="final-sec">
+                <div id="final-sec-div">
+                    <h1 id="final-sec-h1"><span style="font-weight: 100;">Looking to take your </span>marketing to the next level?</h1>
+                    <button id="contact-btn-two" type="button">CONTACT US
+                    </button>
+                </div>
+            </section>
+        </section>
+
+		<script type="text/javascript">
+			// Event listener JS goes here
+
+            const clicked = document.getElementById("contact-btn");
+
+            clicked.addEventListener('click', function() {
+                alert("Clicked");
+            });
+		</script>
+	</body>
+</html>
